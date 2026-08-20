@@ -1,6 +1,7 @@
-flask
-transformers
-torch
+Flask
+gunicorn
 pymongo
 python-dotenv
-gunicorn
+transformers
+torch==2.6.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
